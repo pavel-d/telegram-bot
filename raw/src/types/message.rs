@@ -221,6 +221,8 @@ impl Message {
                 username: None,
                 first_name: String::new(),
                 last_name: None,
+                is_bot: false,
+                language_code: None
             }
         };
         let date = raw.date;
